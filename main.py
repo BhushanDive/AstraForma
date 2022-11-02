@@ -12,8 +12,8 @@ background.fill(pygame.Color(0, 255, 255))
 
 manager = pygame_gui.UIManager(WINDOW_SIZE)
 
-hello_button = pygame_gui.elements.UIButton(relative_rect=pygame.Rect((350, 275), (100, 50)),
-                                                                      text = 'say hello',
+hello_button = pygame_gui.elements.UIButton(relative_rect = pygame.Rect((350, 275), (100, 50)),
+                                                                      text = 'Play',
                                                                       manager = manager)
 
 clock = pygame.time.Clock()
